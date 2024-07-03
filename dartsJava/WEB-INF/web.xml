@@ -1,0 +1,12 @@
+<web-app>
+
+	<servlet>
+		<servlet-name>DartsServlet</servlet-name>
+		<servlet-class>controller.DartsServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>DartsServlet</servlet-name>
+		<url-pattern>/DartsController</url-pattern>
+	</servlet-mapping>
+
+</web-app>
