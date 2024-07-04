@@ -8,5 +8,29 @@
 		<servlet-name>DartsServlet</servlet-name>
 		<url-pattern>/DartsController</url-pattern>
 	</servlet-mapping>
+	<servlet>
+		<servlet-name>ZeroOneServlet</servlet-name>
+		<servlet-class>controller.ZeroOneServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ZeroOneServlet</servlet-name>
+		<url-pattern>/ZeroOneController</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>CricketServlet</servlet-name>
+		<servlet-class>controller.CricketServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>CricketServlet</servlet-name>
+		<url-pattern>/CricketController</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>PracticeServlet</servlet-name>
+		<servlet-class>controller.PracticeServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>PracticeServlet</servlet-name>
+		<url-pattern>/PracticeController</url-pattern>
+	</servlet-mapping>
 
 </web-app>
